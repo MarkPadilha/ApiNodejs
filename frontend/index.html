@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <script type="module" src="javascript/main.js"></script>
+    <title>Página para fazer seu pedido!</title>
+</head>
+<body>
+    <header></header>
+    <main>
+        <section class="container">
+            <h1 class="container_title">Faça seu pedido</h1>
+            <form action="post" class="container_form">
+                <label class="container_title" for="nome_completo">Informe seu nome completo: </label>
+                <input type="text" name="nome_completo">
+                <label class="container_title" for="mesa">Informe o número da sua mesa: </label>
+                <input type="number" name="mesa">
+                <p class="pratos">Pizza <input class="prato_qtd" type="number" name="pizza_qtd" id="pizza_qtd"></p>
+                    
+                <p class="pratos">Alaminuta<input class="prato_qtd" type="number" name="alaminuta" id="alaminuta"></p>
+                    
+                <p class="pratos">Feijoada  <input class="prato_qtd" type="number" name="feijoada_qtd" id="feijoada_qtd"></p>
+                    
+                <p class="pratos">Xis <input class="prato_qtd" type="number" name="xis_qtd" id="xis_qtd"></p>
+                
+                <input id="botao" type="submit">
+            </form>
+        </section>
+
+    </main>
+    <footer></footer>
+</body>
+</html>
